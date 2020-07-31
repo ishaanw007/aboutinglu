@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#youtube {
+    display: flex;
+    height: 500px;
+    width: 800px; 
+    margin: auto;
+    padding: 30px;
+
+
+}
+.vidio::before {
+    content: "";
+    background-color: #011e36;
+     position: absolute; 
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+
+
+}
+.vidio{
+    content: "";
+    background-color: #ffd883;
+    position: absolute;
+    height:750px;
+    width: 100%;
+    z-index: -1;
+}
+
+   /* @media only screen and (max-width: 480px) and (min-width: 320px) {
+    .vidio  {
+        width: 273%;
+        height: 620px;
+    }
+    .vidio::before {
+        height: 50%;
+        width: 100%;
+      }
+  
+    #youtube{
+        width: 400px;
+        height: 298px;
+    }
+ }  */
+
+/* @media(min-width: 750px){
+    .vidio #youtube {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 700px;
+        height: 405px;
+    }
+}
+ @media(min-width: 1000px) and (max-width: 1050px){ 
+    .vidio #youtube {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 950px;
+        height: 550px;
+    }
+}  */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #eduenh{
+   
+    margin-top: 100px;
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    
+}
+.pic1 img{
+    height: 200px;
+    animation-name: backInRight;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+.pic1 img:hover{
+    animation-name: bounce;
+    animation-duration: 0.5s; 
+    /* animation-timing-function: ease-out; 
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;  */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+#enter{
+   
+    margin-top: 100px;
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+       
+}
+.pic2 img{
+    height: 200px;
+    animation-name: backInLeft;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    
+}
+.pic2 img:hover{
+  animation-name: bounce;
+  animation-duration: 0.5s; 
+  /* animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;  */
+}
+
+
+
+
+
+
+
+
+
+
+
+#malik{
+   
+    background-color: #a9d7d8 ;
+    height: 800px;
+    margin-top: 100px;
+    justify-content:center;
+    
+}
+.info3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.box1 img{
+    display: flex; 
+    height: 400px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+#grey{
+    
+    background-color: #e1e1e1 ;
+    height: 300px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h1primary {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.h1secondry{
+    color:  rgb(35, 35, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 50px;
+    color:  #ffcf6b;
+    animation-name: backInLeft;
+    animation-duration: 4s;
+    animation-delay: 0.5s;   
+}
+.h1four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 50px;
+    color:  #ffcf6b;
+    animation-name: backInRight;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    
+}
+#h1five{
+  
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#h1six{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bold;
+    
+}
+
+#h1seven{
+    color: #8e8e8e;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pprimary {
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+ #psecondry{
+     margin-left: 10px;
+     margin-top: 15px;  
+     align-self: flex-end;
+     color: #353535;
+     text-align: center;
+     font-size: 17px;
+     font-family: "Muli",Sans-serif;
+     letter-spacing: 0.02em;
+     margin-right: 125px;
+     animation-name: backInLeft;
+     animation-duration: 4s;
+     animation-delay: 0.5s;
+    }
+    #pthree{
+        margin-left: 10px;
+        margin-top: 15px;  
+        align-self: flex-end;
+        color: #353535;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Muli",Sans-serif;
+        letter-spacing: 0.02em;
+        margin-left: 125px;
+        animation-name: backInRight;
+        animation-duration: 4s;
+        animation-delay: 0.5s;
+}
+
+    #pfour{
+        display: flex;
+        text-align: center;
+        margin-left: 320px;
+        margin-right: 320px;
+        margin-top: 95px;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        font-size: 17px;
+        font-family: "Muli",Sans-serif;
+       
+    }
+    #pfive{
+        display: flex;
+        text-align: center;
+        margin-left: 320px;
+        margin-right: 320px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        font-size: 17px;
+        font-family: "Muli",Sans-serif;
+       
+    }
+    #pseven{
+        color: #7a7a7a;
+        font-size: 20px;
+        text-align: center;
+        padding: 70px;
+        font-weight: 500;
+        margin: auto;
+        
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes picture{
+    from{
+        height: 200px;
+    }
+    to{
+        height: 250px;
+    }
+}
+@keyframes lefttoright{
+
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        
+        left: 100px;
+    }
+
+    75% {
+        
+        left: 250px;
+    }
+
+    100% {
+        
+        left: 250px;
+    }
+}
